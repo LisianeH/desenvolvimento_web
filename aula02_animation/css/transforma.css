@@ -1,0 +1,44 @@
+/* Seleciona o elemento com o ID = Car1 */
+#car1{
+    /* translate muda o posicionamento do elemento */
+    transform: translate(100px, 90px);
+}
+
+#car2{
+    /* rotate rotaciona um elemento em graus */
+    transform: rotate(45deg);
+}
+
+#car3{
+    /* O scale somente, é referente ao eixo x, eixo y */
+    transform: scaleX(0.6);
+}
+
+/* hover em psudo classes, quando colocamos o mouse em cima */
+#car4:hover{
+    transform: scale(0.5);
+}
+#car4{
+    transition: transform 5s;
+}
+
+#car5:hover{
+    width: 350px;
+    height: 350px;
+}
+#car5{
+    width: 250px;
+    height: 250px;
+    transition: width 5s, height 2s;
+}
+
+#car6:hover{
+    transform: 
+        translate(250px, 80px)
+        rotate(10deg);
+}
+#car6{
+    transition: transform 2s;
+    transition-delay: 2s;
+    transition-timing-function: ease-out;
+}

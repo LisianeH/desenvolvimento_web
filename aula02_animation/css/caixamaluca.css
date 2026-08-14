@@ -1,0 +1,46 @@
+/*Código da animação
+A palavra "keyframes" indica que é 
+uma animação*/
+@keyframes mover{
+    /* definição do tempo em porcentagem */
+    0%{
+        margin: 0;
+    }
+    30%{
+        margin-top: 25px;
+        margin-left: 550px;
+        background-color: aquamarine;
+        transform: rotate(35deg); /* deg = graus */
+    }
+    60%{
+        margin-top: 400px;
+        margin-left: 1000px;
+        background-color: purple;
+        transform: rotate(180deg);
+    }
+    100%{
+        margin-top: 50px;
+        margin-left: 200px;
+        background-color: violet;
+        border-radius: 50%;
+    }
+}
+
+/* aplicar em todos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    animation: mover 10s infinite alternate;
+}

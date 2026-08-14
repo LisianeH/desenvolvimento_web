@@ -1,0 +1,66 @@
+/*Código da animação
+A palavra "keyframes" indica que é 
+uma animação*/
+@keyframes acelera{
+    from{
+        /* quando unidade zero, não precisa colocar unidade de medida */
+        margin-left: 0;
+    }
+    to{
+        margin-left: 700px;
+    }
+}
+
+.carro{
+    /* altera o tamanho dos elementos da classe carro */
+    width: 130px;
+    /* nome da animação que será utilizada no elemento */
+    animation-name: acelera;
+    /* e tem que definir quando tempo a animação vai durar */
+    animation-duration: 8s;
+}
+
+#car1{
+    /* quando é chamado o mesmo elemento, ele vai ser chamado sempre o ultimo como referencia */
+    /* width: 90px; */
+
+    /* linear mantem a mesma velocidade que a animação */
+    animation-timing-function: linear;
+}
+
+#car2{
+    /* ease-in começa lento e depois vai mais rápido */
+    animation-timing-function: ease-in;
+
+    /* define a direção, fluxo, da animação */
+    animation-direction: reverse;
+}
+
+#car3{
+    /* Começa rápido termina lento */
+    animation-timing-function: ease-out;
+    transform: scaleX(-1);
+    /* define quantas vezes vai ocorrer a animação */
+    animation-iteration-count: 2;
+    /* executa a animação do inicio ao fim e depois do fim ao inicio */
+    animation-direction: alternate;
+}
+
+#car4{
+    /* começa lento, acelera e termina lento */
+    animation-timing-function: ease-in-out;
+    /* executa a animação infinitas vezes */
+    animation-iteration-count: infinite;
+    /* começa a animação ao contrário depois alterado */
+    animation-direction: alternate-reverse;
+}
+
+#car5{
+    /* definir um tempo de atraso da animação */
+    animation-delay: 2s;
+}
+
+#car6{
+    /* estamos sobrescrevendo o tempo de execução da animação */
+    animation-duration: 10s;
+}
