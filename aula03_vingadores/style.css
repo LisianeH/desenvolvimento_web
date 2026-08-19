@@ -1,0 +1,31 @@
+/* Seleciona todos os elementos do html */
+*{
+    /* Zera os espaçamentos dos elementos */
+    margin: 0;
+    padding: 0;
+    /* Considera a borda ao definir largura e altura dos elementos */
+    box-sizing: border-box;
+}
+
+body{
+    /* Familia padrão de fonte */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Define o tamanho padrão da fonte */
+    font-size: 16px;
+    /* Define cor de texto padrão */
+    color: #333;
+    /* Define alinhamento padrão */
+    text-align: center;
+}
+
+/* Seleciona os elementos da classe principal */
+.principal{
+    /* Define a largura miníma */
+    min-width: 400px;
+    /* Define largura máxima */
+    max-width: 1200px;
+    /* Define cor de fundo */
+    background-color: silver;
+    /* Centraliza container principal */
+    margin: 0 auto;
+}
