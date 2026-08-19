@@ -60,5 +60,7 @@ a:link, a:visited{
     /* Define altura do elemento */
     height: 350px;
     /* Define tamanho da imagem de fundo */
-    background-size: cover; 
+    background-size: cover;
+    /* Define a posição da imagem de fundo */
+    background-position: center;
 }
