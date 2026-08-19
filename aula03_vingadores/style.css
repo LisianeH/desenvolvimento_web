@@ -29,3 +29,36 @@ body{
     /* Centraliza container principal */
     margin: 0 auto;
 }
+
+header{
+    background-color: #333;
+}
+
+a.logo{
+    /* inline-block permite que o elemento tenha altura e largura */
+    display: inline-block;
+    width: 150px;
+}
+
+.logo>img{
+    width: 100%;
+}
+
+li{
+    /* remove os pontos da lista não ordenada */
+    list-style-type: none;
+}
+
+a:link, a:visited{
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+.banner{
+    /* Define imagem de fundo */
+    background-image: url(img/banner.jpg);
+    /* Define altura do elemento */
+    height: 350px;
+    /* Define tamanho da imagem de fundo */
+    background-size: cover; 
+}
