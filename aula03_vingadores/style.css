@@ -64,3 +64,27 @@ a:link, a:visited{
     /* Define a posição da imagem de fundo */
     background-position: center;
 }
+
+h1{
+    color: #FFF;
+    /* background-color: rgba(0, 0, 0, .5); */
+    text-shadow: 2px 2px 2px #CDA75E;
+}
+
+figure{
+    width: 390px;
+    margin: 10px auto;
+}
+
+figure img{
+    width: 100%;
+}
+
+footer{
+    background-color: #222;
+    padding: 30px 40px;
+}
+
+footer p{
+    color: #999;
+}
