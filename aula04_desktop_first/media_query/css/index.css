@@ -1,0 +1,27 @@
+body{
+    background-color: aqua;
+} 
+
+/* Aplica o css se o viewport tiver no mínimo 500px
+de largura, ou seja, viewport maior que 500px */
+@media only screen and (min-width: 500px){
+    body{
+        background-color: darkblue;
+    }
+}
+
+/* Aplica o css se o viewport tiver no mínimo 768px
+de largura, ou seja, viewport maior que 768px */
+@media screen and (min-width: 768px){
+    body {
+        background-color: burlywood;
+    }
+}
+
+/* Aplica o css se o viewport tiver no mínimo 990px
+de largura, ou seja, viewport maior que 990px */
+@media screen and (min-width: 990px) {
+    body{
+        background-color: darkgreen;
+    }
+}
