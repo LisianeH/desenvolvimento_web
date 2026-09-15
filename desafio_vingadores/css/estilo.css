@@ -24,7 +24,7 @@ classe "container" */
     /* Define a largura miníma  */
     min-width: 400px;
     /* Define a largura máxima */
-    max-width: 1200px;
+    /* max-width: 1200px; */
     /* Define uma cor de fundo */
     background-color: gray;
     /* Centraliza container  */
@@ -92,6 +92,59 @@ footer p{
     color: #999;
 }
 
+/* tela média */
 @media only screen and (min-width: 650px) {
+    header{
+        overflow: hidden;
+        padding: 15px 20px;
+    }
 
+    a.logo{
+        float: left;
+    }
+
+    nav{
+        float: right;
+        margin-top: 15px;
+    }
+
+    nav ul li{
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    .banner{
+        margin-bottom: 50px;
+    }
+
+    figure{
+        display: inline-block;
+        vertical-align: top;
+        width: 300px;
+        margin: 5px;
+    }
+
+    figure img{
+        width: 100%;
+    }
+}
+
+/* tela grande 941px - atualiza dinamicamente */
+
+/* tela extra grande */
+@media only screen and (min-width: 1255px) {
+    figure{
+        display: inline-block;
+        vertical-align: top;
+        width: 295px;
+        margin: 5px;
+    }
+
+    figure img{
+        width: 100%;
+    }
+
+    figure.img_bigger{
+        width: 600px;
+    }
 }
