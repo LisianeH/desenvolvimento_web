@@ -149,8 +149,6 @@ footer p{
 
 /* tela extra grande */
 @media only screen and (min-width: 1255px) {
-    /* largura em porcentagem: 4 figuras por linha,
-    preenchendo 100% da tela em qualquer resolução */
     figure{
         width: 25%;
         margin: 0;
@@ -161,7 +159,6 @@ footer p{
         width: 100%;
     }
 
-    /* 2 figuras grandes por linha (metade cada) */
     figure.img_bigger{
         width: 50%;
     }

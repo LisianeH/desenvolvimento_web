@@ -136,7 +136,7 @@ footer p{
     figure{
         display: inline-block;
         vertical-align: top;
-        width: 295px;
+        width: 23%;
         margin: 5px;
     }
 
@@ -145,6 +145,6 @@ footer p{
     }
 
     figure.img_bigger{
-        width: 600px;
+        width: 46.75%;
     }
 }
